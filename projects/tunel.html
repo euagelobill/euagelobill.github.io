@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LabView Tunel</title>
+    <meta name="description" content="Publication PDF Viewer">
+
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/favicon.ico">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Theme init -->
+    <script>
+        (function() {
+            try {
+                var saved = localStorage.getItem('theme');
+                var theme = saved === 'dark' || saved === 'light' ? saved : 'light';
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script>
+</head>
+
+<body class="bg-global-bg text-global-text antialiased thesis-page">
+
+<!-- ===== HEADER (UNCHANGED) ===== -->
+<header id="main-header" class="group">
+    <div class="header-grid">
+
+        <!-- Logo -->
+        <a href="../index.html#about" class="group header-logo flex items-center">
+            <img src="../assets/favicon.ico"
+                 alt="Logo"
+                 class="me-3 h-10 w-6 sm:me-3 sm:h-100 sm:w-12">
+        </a>
+
+        <!-- Title -->
+        <div class="header-title">
+            <span class="text-xl font-bold sm:text-2xl">V. Evangelopoulos</span>
+        </div>
+
+        <!-- Navigation -->
+        <!-- <nav class="mobile-nav-menu header-nav sm:flex sm:flex-row sm:items-center">
+            <a href="../index.html#about">About</a>
+            <a href="../index.html#projects">Projects</a>
+            <a href="../index.html#publications">Publications</a>
+            <a href="../index.html#resume">Resume</a>
+        </nav> -->
+
+        <!-- Controls -->
+            <div class="header-controls flex items-center gap-3">
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" class="flex h-7 w-7 items-center justify-center rounded-md border border-accent-2/20 bg-accent-2/10 p-1 transition-colors hover:bg-accent-2/20" aria-label="Switch to dark theme">
+                    <svg class="sun-icon h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path>
+                    </svg>
+                    <svg class="moon-icon h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                    </svg>
+                </button>
+
+    </div>
+</header>
+
+<!-- ===== MAIN CONTENT ===== -->
+<main class="mx-auto max-w-3xl px-4 sm:px-8 pt-8 pb-12">
+
+    <!-- Back link -->
+    <div style="max-width: 100%; margin: 0 auto 1rem;"  >
+        <a href="../index.html" class="load-more-btn"  >← Back to Home </a>
+    </div>
+
+
+    <section data-md="tunel" class="mb-8">
+    <div class="prose md-content"></div>
+    </section>
+    
+    
+
+
+</main>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
