@@ -21,11 +21,11 @@
    
 </div>
 
-In this project, a Synchronous Reluctance Machine is designed and modeled using AutoCAD, FEMM, and MATLAB in order to calculate:
+In this project, a **Synchronous Reluctance Machine** is designed and modeled using **AutoCAD**, **FEMM**, and **MATLAB** in order to calculate:
 - Nominal electromagnetic torque
 - Torque waveform versus time
 - EMF versus time
-A 3D model of the main machine components is shown, created in AutoCAD and Blender:
+A 3D model of the main machine components is shown, created in AutoCAD and **Blender**:
 <!-- src="../assets/3D_machine.glb"  autoplay auto-rotate-->
 <model-viewer src="../assets/3D_machine.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="0.5"  camera-orbit="-39deg 81.78deg 90.8m" field-of-view="22.98deg" >
     <button class="Hotspot" slot="hotspot-1" data-surface="4 0 589 485 602 0.173 0.003 0.824" data-visibility-attribute="visible">
@@ -50,7 +50,7 @@ A 3D model of the main machine components is shown, created in AutoCAD and Blend
 <div class="md-h4">Machine Structure</div>
 The machine consists of a stator, windings, a rotor, and permanent magnets.
 <blockquote>Stator & Windigns</blockquote>
-The stator slots contain the three-phase windings in a double-layer configuration.
+The stator slots contain the three-phase windings in a **double-layer** configuration.
 
 <div class="svg-wrapper">
   <svg
@@ -879,7 +879,7 @@ The stator slots contain the three-phase windings in a double-layer configuratio
 Where red green blue for phase A,B and C accordingly.
 
 <blockquote>Rotor & Magnets</blockquote>
-Magnets are embedded within the rotor gaps, forming four magnetic poles.
+Magnets are embedded within the rotor gaps, forming **four magnetic poles**.
 <br> <br> 
 
 <div class="svg-wrapper2">
@@ -1151,10 +1151,10 @@ Magnets are embedded within the rotor gaps, forming four magnetic poles.
        transform="scale(1,-1)" /></g></svg>
 </div>
 
-The rotor gaps, also known as 'flux barriers,' are responsible for the difference in magnetic resistance between the d-axis and q-axis.
+The rotor gaps, also known as "**flux barriers**", are responsible for the difference in magnetic resistance between the d-axis and q-axis.
 
 <div class="md-h4">FEMM Simulations</div>
-In the initial set of simulations, a DC run was performed where the windings were powered with direct current. The rotor was then rotated to capture the torque-angle characteristic.
+In the initial set of simulations, a **DC run** was performed where the windings were powered with direct current. The rotor was then rotated to capture the **torque-angle characteristic**.
 <blockquote>DC Run</blockquote>
 The nominal torque is defined as 50% of the maximum point of the torque waveform. Note that the x-axis represents the mechanical angle in degrees.
 <br> <br>
